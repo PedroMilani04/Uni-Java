@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package funcionarios.docentes;
+package MODELO.funcionarios.docentes;
 
 /**
  *
  * @author Pedro
  */
-public class docenteSubstituto extends funcionarios.docentes.docente {
+public class docenteSubstituto extends MODELO.funcionarios.docentes.docente {
 
     public enum CargaHoraria {
         DOZE(12),

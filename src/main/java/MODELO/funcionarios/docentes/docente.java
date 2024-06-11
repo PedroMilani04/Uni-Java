@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package funcionarios.docentes;
+package MODELO.funcionarios.docentes;
 
 /**
  *
  * @author Pedro
  */
-public abstract class docente extends funcionarios.funcionarios{
+public abstract class docente extends MODELO.funcionarios.funcionarios{
     public enum TitulacaoDocente {
         GRADUACAO,
         MESTRADO,

@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package funcionarios.tecnicos;
+package MODELO.funcionarios.tecnicos;
 
 /**
  *
  * @author Pedro
  */
-public class tecnico extends funcionarios.funcionarios {
+public class tecnico extends MODELO.funcionarios.funcionarios {
 
     public enum FuncaoTecnico {
         ASSESSOR,
@@ -17,7 +17,7 @@ public class tecnico extends funcionarios.funcionarios {
     }
     protected FuncaoTecnico funcao;
 
-    public tecnico(String codigo, String nome, float salario, String nivel, FuncaoTecnico funcao) {
+    public tecnico(String codigo, String nome, double salario, String nivel, FuncaoTecnico funcao) {
         super(codigo, nome, salario, nivel);
         this.funcao = funcao;
     }
